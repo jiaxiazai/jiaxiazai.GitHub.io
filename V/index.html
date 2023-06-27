@@ -7,8 +7,8 @@
 　　<script>
 
 　　var total="";
-
-　　for (var i=0;i<1000000000000000;i++)
+   var i = 0;
+　　for (;;)
 
 　　{
 
@@ -17,6 +17,7 @@
 　　history.pushState(0,0,total);
     //document.write(i);
       document.write(total);
+      i++
 
 　　}
 
